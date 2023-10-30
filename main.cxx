@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
 
 
     // Process temperature data (nat)
-    int result1 = processTemperatureData1();
+    int result1 = processTemperatureData1(const std::string& filename);
     int result2 = processTemperatureData2();
     int result3 = processTemperatureData3();
     
