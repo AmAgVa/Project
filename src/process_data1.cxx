@@ -6,7 +6,7 @@
 #include <map>
 #include "temperature_data.h"
 
-int processTemperatureData1() {
+int processTemperatureData1(const std::string& filename) {
     std::ifstream input(filename);
 
     std::vector<TemperatureData> data;
