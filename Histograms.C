@@ -33,8 +33,8 @@ void histogram() {
     warmestDaysHist->SetFillColor(kRed);
 
     // Read data from the input files and fill the histograms
-    std::ifstream coldestDataFile("output.txt");
-    std::ifstream warmestDataFile("output2.txt");
+    std::ifstream coldestDataFile("coldest_days.txt");
+    std::ifstream warmestDataFile("warmest_days.txt");
     int value;
 
     while (coldestDataFile >> value) {
