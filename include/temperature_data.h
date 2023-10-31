@@ -9,7 +9,7 @@ struct TemperatureData {
     double temperature;
 };
 
-int processTemperatureData1(const std::string& filename);
+int processTemperatureData1(const std::string& cleaneddata_Lund);
 int processTemperatureData2();
 int processTemperatureData3();
 
