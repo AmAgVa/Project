@@ -48,9 +48,3 @@ int processTemperatureData1(const std::string& filename) {
 
     return 0;
 }
-
-    warmestOutput.close();
-    coldestOutput.close();
-
-    return 0;
-}
