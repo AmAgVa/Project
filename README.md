@@ -25,24 +25,15 @@ It was made in a similar fashion as the file cleandata_Lund.csv, by using the ba
 
 # Remark on compiling 
 
-It is recommended to compile 'src/seasonal.cxx' and 'main.cxx' together by the command
-```
-g++ -Wall -Wextra -Werror -o my_program main.cxx src/seasonal.cxx -I ./include
-```
-and for the execution of the code use the command
-```
-./my_program <cleaneddata.csv> <cleandata2.csv> <year for daily weather plot>
-```
-
-There is a makefile provided if you wish to use that.
-Simply compile with
+One can just follow this order 
 ```
 make
 ```
-and to clean use
+make would have produces an excutable called main which can be excuted by doing 
 ```
-make clean
+./main cleanneddata_Lund.csv cleanneddata_Lulea.csv 2021
 ```
+once that is done one must procceed to launch root and follow the instructions below.
 
 # Remark on ROOT
 
