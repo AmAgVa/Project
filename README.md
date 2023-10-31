@@ -31,7 +31,7 @@ make
 ```
 make would have produces an excutable called main which can be excuted by doing 
 ```
-./main cleanneddata_Lund.csv cleanneddata_Lulea.csv 2021
+./main datasets/cleanneddata_Lund.csv datasets/cleanneddata_Lulea.csv 2021
 ```
 once that is done one must procceed to launch root and follow the instructions below.
 
