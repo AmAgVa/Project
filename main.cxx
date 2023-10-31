@@ -1,4 +1,3 @@
-
 #include "seasonal.h"
 #include "year_temp_anlys.h"
 #include <iostream>
